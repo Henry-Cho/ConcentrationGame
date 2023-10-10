@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8F48922AD5043E0006FBB5 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F48912AD5043E0006FBB5 /* Pie.swift */; };
+		0F8F48942AD508030006FBB5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F48932AD508030006FBB5 /* CardView.swift */; };
+		0F8F48962AD50E0F0006FBB5 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F48952AD50E0F0006FBB5 /* Cardify.swift */; };
+		0FA03FBC2AD3D1DB00197449 /* Concentration_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FBB2AD3D1DB00197449 /* Concentration_GameApp.swift */; };
+		0FA03FBE2AD3D1DB00197449 /* ConcentrationGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FBD2AD3D1DB00197449 /* ConcentrationGameView.swift */; };
+		0FA03FC02AD3D1DC00197449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA03FBF2AD3D1DC00197449 /* Assets.xcassets */; };
+		0FA03FC32AD3D1DC00197449 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FA03FC22AD3D1DC00197449 /* Preview Assets.xcassets */; };
+		0FA03FCD2AD3D1DC00197449 /* Concentration_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FCC2AD3D1DC00197449 /* Concentration_GameTests.swift */; };
+		0FA03FD72AD3D1DC00197449 /* Concentration_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FD62AD3D1DC00197449 /* Concentration_GameUITests.swift */; };
+		0FA03FD92AD3D1DC00197449 /* Concentration_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FD82AD3D1DC00197449 /* Concentration_GameUITestsLaunchTests.swift */; };
+		0FA03FEA2AD3D4BB00197449 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FE92AD3D4BB00197449 /* ConcentrationGame.swift */; };
+		0FA03FEC2AD3D53C00197449 /* EmojiConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FEB2AD3D53C00197449 /* EmojiConcentrationGame.swift */; };
+		0FA03FEF2AD3E15A00197449 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA03FEE2AD3E15A00197449 /* Array+Identifiable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA03FC92AD3D1DC00197449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA03FB02AD3D1DB00197449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA03FB72AD3D1DB00197449;
+			remoteInfo = "Concentration Game";
+		};
+		0FA03FD32AD3D1DC00197449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FA03FB02AD3D1DB00197449 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA03FB72AD3D1DB00197449;
+			remoteInfo = "Concentration Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F8F48912AD5043E0006FBB5 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		0F8F48932AD508030006FBB5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0F8F48952AD50E0F0006FBB5 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		0FA03FB82AD3D1DB00197449 /* Concentration Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concentration Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA03FBB2AD3D1DB00197449 /* Concentration_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration_GameApp.swift; sourceTree = "<group>"; };
+		0FA03FBD2AD3D1DB00197449 /* ConcentrationGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGameView.swift; sourceTree = "<group>"; };
+		0FA03FBF2AD3D1DC00197449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FA03FC22AD3D1DC00197449 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FA03FC82AD3D1DC00197449 /* Concentration GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concentration GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA03FCC2AD3D1DC00197449 /* Concentration_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration_GameTests.swift; sourceTree = "<group>"; };
+		0FA03FD22AD3D1DC00197449 /* Concentration GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Concentration GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FA03FD62AD3D1DC00197449 /* Concentration_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration_GameUITests.swift; sourceTree = "<group>"; };
+		0FA03FD82AD3D1DC00197449 /* Concentration_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FA03FE92AD3D4BB00197449 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
+		0FA03FEB2AD3D53C00197449 /* EmojiConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiConcentrationGame.swift; sourceTree = "<group>"; };
+		0FA03FEE2AD3E15A00197449 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA03FB52AD3D1DB00197449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FC52AD3D1DC00197449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FCF2AD3D1DC00197449 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA03FAF2AD3D1DB00197449 = {
+			isa = PBXGroup;
+			children = (
+				0FA03FBA2AD3D1DB00197449 /* Concentration Game */,
+				0FA03FCB2AD3D1DC00197449 /* Concentration GameTests */,
+				0FA03FD52AD3D1DC00197449 /* Concentration GameUITests */,
+				0FA03FB92AD3D1DB00197449 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FA03FB92AD3D1DB00197449 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FB82AD3D1DB00197449 /* Concentration Game.app */,
+				0FA03FC82AD3D1DC00197449 /* Concentration GameTests.xctest */,
+				0FA03FD22AD3D1DC00197449 /* Concentration GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FA03FBA2AD3D1DB00197449 /* Concentration Game */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FED2AD3E14700197449 /* utility */,
+				0FA03FE72AD3D48A00197449 /* Model */,
+				0FA03FE62AD3D47E00197449 /* View */,
+				0FA03FE52AD3D47500197449 /* ViewModel */,
+				0FA03FBF2AD3D1DC00197449 /* Assets.xcassets */,
+				0FA03FC12AD3D1DC00197449 /* Preview Content */,
+			);
+			path = "Concentration Game";
+			sourceTree = "<group>";
+		};
+		0FA03FC12AD3D1DC00197449 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FC22AD3D1DC00197449 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FA03FCB2AD3D1DC00197449 /* Concentration GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FCC2AD3D1DC00197449 /* Concentration_GameTests.swift */,
+			);
+			path = "Concentration GameTests";
+			sourceTree = "<group>";
+		};
+		0FA03FD52AD3D1DC00197449 /* Concentration GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FD62AD3D1DC00197449 /* Concentration_GameUITests.swift */,
+				0FA03FD82AD3D1DC00197449 /* Concentration_GameUITestsLaunchTests.swift */,
+			);
+			path = "Concentration GameUITests";
+			sourceTree = "<group>";
+		};
+		0FA03FE52AD3D47500197449 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FEB2AD3D53C00197449 /* EmojiConcentrationGame.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FA03FE62AD3D47E00197449 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FBB2AD3D1DB00197449 /* Concentration_GameApp.swift */,
+				0FA03FBD2AD3D1DB00197449 /* ConcentrationGameView.swift */,
+				0F8F48912AD5043E0006FBB5 /* Pie.swift */,
+				0F8F48932AD508030006FBB5 /* CardView.swift */,
+				0F8F48952AD50E0F0006FBB5 /* Cardify.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FA03FE72AD3D48A00197449 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FA03FE92AD3D4BB00197449 /* ConcentrationGame.swift */,
+				0FA03FEE2AD3E15A00197449 /* Array+Identifiable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FA03FED2AD3E14700197449 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA03FB72AD3D1DB00197449 /* Concentration Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA03FDC2AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration Game" */;
+			buildPhases = (
+				0FA03FB42AD3D1DB00197449 /* Sources */,
+				0FA03FB52AD3D1DB00197449 /* Frameworks */,
+				0FA03FB62AD3D1DB00197449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Concentration Game";
+			productName = "Concentration Game";
+			productReference = 0FA03FB82AD3D1DB00197449 /* Concentration Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FA03FC72AD3D1DC00197449 /* Concentration GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA03FDF2AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration GameTests" */;
+			buildPhases = (
+				0FA03FC42AD3D1DC00197449 /* Sources */,
+				0FA03FC52AD3D1DC00197449 /* Frameworks */,
+				0FA03FC62AD3D1DC00197449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA03FCA2AD3D1DC00197449 /* PBXTargetDependency */,
+			);
+			name = "Concentration GameTests";
+			productName = "Concentration GameTests";
+			productReference = 0FA03FC82AD3D1DC00197449 /* Concentration GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FA03FD12AD3D1DC00197449 /* Concentration GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FA03FE22AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration GameUITests" */;
+			buildPhases = (
+				0FA03FCE2AD3D1DC00197449 /* Sources */,
+				0FA03FCF2AD3D1DC00197449 /* Frameworks */,
+				0FA03FD02AD3D1DC00197449 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FA03FD42AD3D1DC00197449 /* PBXTargetDependency */,
+			);
+			name = "Concentration GameUITests";
+			productName = "Concentration GameUITests";
+			productReference = 0FA03FD22AD3D1DC00197449 /* Concentration GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FA03FB02AD3D1DB00197449 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					0FA03FB72AD3D1DB00197449 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					0FA03FC72AD3D1DC00197449 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0FA03FB72AD3D1DB00197449;
+					};
+					0FA03FD12AD3D1DC00197449 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 0FA03FB72AD3D1DB00197449;
+					};
+				};
+			};
+			buildConfigurationList = 0FA03FB32AD3D1DB00197449 /* Build configuration list for PBXProject "Concentration Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FA03FAF2AD3D1DB00197449;
+			productRefGroup = 0FA03FB92AD3D1DB00197449 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA03FB72AD3D1DB00197449 /* Concentration Game */,
+				0FA03FC72AD3D1DC00197449 /* Concentration GameTests */,
+				0FA03FD12AD3D1DC00197449 /* Concentration GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FA03FB62AD3D1DB00197449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA03FC32AD3D1DC00197449 /* Preview Assets.xcassets in Resources */,
+				0FA03FC02AD3D1DC00197449 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FC62AD3D1DC00197449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FD02AD3D1DC00197449 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FA03FB42AD3D1DB00197449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8F48942AD508030006FBB5 /* CardView.swift in Sources */,
+				0F8F48922AD5043E0006FBB5 /* Pie.swift in Sources */,
+				0F8F48962AD50E0F0006FBB5 /* Cardify.swift in Sources */,
+				0FA03FEC2AD3D53C00197449 /* EmojiConcentrationGame.swift in Sources */,
+				0FA03FEF2AD3E15A00197449 /* Array+Identifiable.swift in Sources */,
+				0FA03FEA2AD3D4BB00197449 /* ConcentrationGame.swift in Sources */,
+				0FA03FBE2AD3D1DB00197449 /* ConcentrationGameView.swift in Sources */,
+				0FA03FBC2AD3D1DB00197449 /* Concentration_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FC42AD3D1DC00197449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA03FCD2AD3D1DC00197449 /* Concentration_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FA03FCE2AD3D1DC00197449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA03FD92AD3D1DC00197449 /* Concentration_GameUITestsLaunchTests.swift in Sources */,
+				0FA03FD72AD3D1DC00197449 /* Concentration_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FA03FCA2AD3D1DC00197449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA03FB72AD3D1DB00197449 /* Concentration Game */;
+			targetProxy = 0FA03FC92AD3D1DC00197449 /* PBXContainerItemProxy */;
+		};
+		0FA03FD42AD3D1DC00197449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA03FB72AD3D1DB00197449 /* Concentration Game */;
+			targetProxy = 0FA03FD32AD3D1DC00197449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FA03FDA2AD3D1DC00197449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FA03FDB2AD3D1DC00197449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FA03FDD2AD3D1DC00197449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Concentration Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FA03FDE2AD3D1DC00197449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Concentration Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FA03FE02AD3D1DC00197449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concentration Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Concentration Game";
+			};
+			name = Debug;
+		};
+		0FA03FE12AD3D1DC00197449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Concentration Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Concentration Game";
+			};
+			name = Release;
+		};
+		0FA03FE32AD3D1DC00197449 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Concentration Game";
+			};
+			name = Debug;
+		};
+		0FA03FE42AD3D1DC00197449 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.henrycho.Concentration-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Concentration Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FA03FB32AD3D1DB00197449 /* Build configuration list for PBXProject "Concentration Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA03FDA2AD3D1DC00197449 /* Debug */,
+				0FA03FDB2AD3D1DC00197449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA03FDC2AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA03FDD2AD3D1DC00197449 /* Debug */,
+				0FA03FDE2AD3D1DC00197449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA03FDF2AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA03FE02AD3D1DC00197449 /* Debug */,
+				0FA03FE12AD3D1DC00197449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FA03FE22AD3D1DC00197449 /* Build configuration list for PBXNativeTarget "Concentration GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA03FE32AD3D1DC00197449 /* Debug */,
+				0FA03FE42AD3D1DC00197449 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FA03FB02AD3D1DB00197449 /* Project object */;
+}

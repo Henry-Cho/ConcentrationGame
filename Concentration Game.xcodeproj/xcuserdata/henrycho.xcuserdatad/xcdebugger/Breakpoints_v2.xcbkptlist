@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C7390944-9301-407A-B8AE-B8AC2B1F65EE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B77C7DC8-3D98-46E3-B8EE-D6DB23147135"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Concentration Game/ViewModel/EmojiConcentrationGame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "EmojiConcentrationGame"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B77C7DC8-3D98-46E3-B8EE-D6DB23147135 - e460c3478bca7cb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for emojis"
+                  moduleName = "Concentration Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/henrycho/Desktop/IS543/Concentration%20Game/Concentration%20Game/ViewModel/EmojiConcentrationGame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "B77C7DC8-3D98-46E3-B8EE-D6DB23147135 - ef97c852914f6274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Concentration_Game.EmojiConcentrationGame.emojis.unsafeMutableAddressor : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Concentration Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/henrycho/Desktop/IS543/Concentration%20Game/Concentration%20Game/ViewModel/EmojiConcentrationGame.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
